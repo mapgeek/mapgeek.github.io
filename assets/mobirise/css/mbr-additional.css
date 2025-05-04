@@ -682,13 +682,13 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-uKfiu30TsA {
+.cid-uKh3MGxzdZ {
   background-image: url("../../../assets/images/mapoutline-background-png-2000x1600.png");
 }
-.cid-uKfiu30TsA .mbr-fallback-image.disabled {
+.cid-uKh3MGxzdZ .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-uKfiu30TsA .mbr-fallback-image {
+.cid-uKh3MGxzdZ .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -697,6 +697,14 @@ a {
   position: absolute;
   top: 0;
 }
-.cid-uKfiu30TsA .row {
+@media (max-width: 991px) {
+  .cid-uKh3MGxzdZ .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-uKh3MGxzdZ .row {
   flex-direction: row-reverse;
+}
+.cid-uKh3MGxzdZ img {
+  width: 100%;
 }
