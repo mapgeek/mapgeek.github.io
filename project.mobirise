@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Full-Screen-Mobile-Tester",
-    "currentPage": "local-demo-nyc.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -56,9 +56,12 @@
     "gdpr": false,
     "witsec-jquery": false,
     "pwa-switcher": false,
-    "uniqCompNum": 20,
+    "uniqCompNum": 21,
     "versionPublish": "6.0.1",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "mcSmartCart": {
+      "currency": "USD"
+    }
   },
   "pages": {
     "index.html": {
@@ -87,6 +90,23 @@
           "_JSplaceholders": [
             "<script>\nvar duomo = {\n  Image: {\n    xmlns: \"http://schemas.microsoft.com/deepzoom/2008\",\n    Url: \"//openseadragon.github.io/example-images/duomo/duomo_files/\",\n    Format: \"jpg\",\n    Overlap: \"2\",\n    TileSize: \"256\",\n    Size: {\n      Width:  \"13920\",\n      Height: \"10200\"\n    }\n  }\n};\n\nvar viewer = OpenSeadragon({\n  id: \"seadragon-viewer\",\n  prefixUrl: \"//openseadragon.github.io/openseadragon/images/\",\n  tileSources: duomo\n});\n</script>"
           ]
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content11",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content11\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"local-demo.html\" data-app-placeholder=\"Type Text\">local-demo</a> <a class=\"btn btn-primary\" href=\"demo.html\" data-app-placeholder=\"Type Text\">demo</a> <a class=\"btn btn-primary\" href=\"local-demo-nyc.html\" data-app-placeholder=\"Type Text\">local-demo-nyc</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "uKsxwwabRU",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content11-k"
         }
       ]
     },
