@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=IfrNJS"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=IfrNJS" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=7Xp4Lj"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=7Xp4Lj" type="text/css">
 
   
   
@@ -29,29 +29,22 @@
   
   <div id="custom-html-g"><!-- Type valid HTML here -->
 
-<div id="seadragon-viewer" style="width:800px; height:600px;"></div>
+<div id="openseadragon" style="width: 800px; height: 600px;"></div>
+
+
 
 
 <script>
-var duomo = {
-  Image: {
-    xmlns: "http://schemas.microsoft.com/deepzoom/2008",
-    Url: "//openseadragon.github.io/example-images/duomo/duomo_files/",
-    Format: "jpg",
-    Overlap: "2",
-    TileSize: "256",
-    Size: {
-      Width:  "13920",
-      Height: "10200"
-    }
-  }
-};
-
+    
+    
 var viewer = OpenSeadragon({
-  id: "seadragon-viewer",
-  prefixUrl: "//openseadragon.github.io/openseadragon/images/",
-  tileSources: duomo
+    id: "openseadragon",
+    tileSources: {
+        type: "image",
+        url: "https://i.imgur.com/YOa630j.jpg"
+    }
 });
+    
 </script>
 </div>
 
