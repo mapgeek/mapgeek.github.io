@@ -10,42 +10,58 @@
   <meta name="description" content="The Internet's Atlas of Transit Maps">
   
   
-  <title>MetroMaps.org</title>
+  <title>Map Viewer Page</title>
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/popup-overlay-plugin/style.css">
-  <link rel="stylesheet" href="assets/smart-cart/minicart-theme.css">
-  <link rel="stylesheet" href="assets/theme/css/style.css">
+    <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Rethink+Sans:400,500,600,700,800,400i,500i,600i,700i,800i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rethink+Sans:400,500,600,700,800,400i,500i,600i,700i,800i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=GU4Aue"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=GU4Aue" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=HBnI7N"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=HBnI7N" type="text/css">
 
   
   
-  
+  <script src="assets-openseadragon/openseadragon.min.js"></script>
 
 </head>
 <body>
   
-  <div id="custom-html-r"><!-- Type valid HTML here -->
+  <section data-bs-version="5.1" class="image03 cid-uKwa8uWN4m" id="image04-v">
+    
 
-<div>
-   <iframe src="https://umap.openstreetmap.fr/en/map/metromapsorg_1203972#2/0.0/-35.0" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
-    Your browser doesn't support iframes
-</iframe>
-</div></div>
+    <div class="image-block m-auto">
+        <div id="openseadragon" style="width: 500px; height: 600px;"> </div>
+
+<script>
+    
+    
+var viewer = OpenSeadragon({
+    id: "openseadragon",
+    prefixUrl: "assets-openseadragon/images/",
+    tileSources: {
+        type: "image",
+        url: "https://i.imgur.com/YOa630j.jpg"
+    }
+});
+    
+</script>
+
+     
+     
+        
+        
+    </div>
+</section>
 
 
 <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
   <script src="assets/ytplayer/index.js"></script>
-  <script src="assets/smart-cart/minicart.js"></script>
-  <script src="assets/smart-cart/minicart-customizer.js"></script>
-  <script src="assets/theme/js/script.js"></script>
+      <script src="assets/theme/js/script.js"></script>
   
   
-  
+  <body style="background-color:#000000;">
 
 </body>
 </html>
