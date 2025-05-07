@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Full-Screen-Mobile-Tester",
-    "currentPage": "index.html",
+    "currentPage": "nyc.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -56,7 +56,7 @@
     "gdpr": false,
     "witsec-jquery": false,
     "pwa-switcher": false,
-    "uniqCompNum": 23,
+    "uniqCompNum": 24,
     "versionPublish": "6.0.1",
     "screenshot": "screenshot.png",
     "mcSmartCart": {
@@ -117,7 +117,7 @@
         "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
         "footer_custom": "",
         "html_before": "",
-        "order": "6"
+        "order": "3"
       },
       "components": [
         {
