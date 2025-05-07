@@ -85,6 +85,9 @@
             "img": {
               "object-fit": "contain",
               "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
             }
           },
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
