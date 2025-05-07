@@ -711,6 +711,9 @@ a {
 .cid-uKsU43GXx5 .mbr-description {
   text-align: left;
 }
+.cid-uKsU43GXx5 .openseadragon-container.fullscreen {
+  background-color: black !important;
+}
 .cid-uKtgWv9rOb {
   padding-top: 5rem;
   padding-bottom: 5rem;

@@ -116,6 +116,9 @@
             },
             ".mbr-description": {
               "text-align": "left"
+            },
+            ".openseadragon-container.fullscreen": {
+              "background-color": "black !important"
             }
           },
           "_name": "image3",
